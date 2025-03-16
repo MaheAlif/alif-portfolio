@@ -18,4 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deployed in Netlify : [MaheAlif's_Portfolio](https://glittery-naiad-7d805f.netlify.app/)
+## Deployed in Netlify : [MaheAlif's_Portfolio](https://lustrous-melba-2e8722.netlify.app/)

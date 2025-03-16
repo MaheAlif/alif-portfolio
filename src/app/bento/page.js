@@ -42,7 +42,7 @@ function Bento() {
                 <div className="lg:w-1/2 md:w-[2500px] flex justify-center lg:justify-start ">
                   <div className=""></div>
                   <img
-                    src="../MaheAlif.jpeg"
+                    src="https://imgur.com/a/AUiCziu"
                     alt="Mahe Alif"
                     className="w-full p-2 lg:p-5"
                   />

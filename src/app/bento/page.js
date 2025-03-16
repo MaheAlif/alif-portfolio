@@ -31,38 +31,42 @@ function Bento() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* About Me */}
             <div
-              className={`lg:col-span-2 p-3 lg:p-5 rounded-lg shadow-md  overflow-hidden ${
+              className={`lg:col-span-2 md:col-span-2 p-3 lg:p-5 rounded-lg shadow-md  overflow-hidden ${
                 darkMode
                   ? "bg-gray-800 text-gray-300"
                   : "bg-slate-100 text-gray-700"
               }`}
             >
               <h2 className="text-xl font-bold mb-4">About Me</h2>
-              <div className="flex flex-col lg:flex-row w-full gap-5 p-2">
-                <div className="lg:w-1/2 flex justify-center lg:justify-start ">
+              <div className="flex flex-col md:flex-row lg:flex-row w-full gap-5 p-2">
+                <div className="lg:w-1/2 md:w-[2500px] flex justify-center lg:justify-start ">
                   <div className=""></div>
                   <img
-                    src="https://media.licdn.com/dms/image/v2/D5603AQENG5Gtw56d3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731582396563?e=1741824000&v=beta&t=WNh1_L_r2SFtYR6T3f6FtZO4_T6wx_N0bdClW8_eVEQ"
+                    src="../MaheAlif.jpeg"
                     alt="Mahe Alif"
-                    className="w-full rounded-xl shadow-lg "
+                    className="w-full p-2 lg:p-5"
                   />
                 </div>
-                <p className="lg:w-fit  p-2">
-                  Hi! I&apos;m Mahe Alif, a Computer Science & Engineering student at
-                  United International University. I have experience in the MERN
-                  stack, React, Python, and database management.
+                <p className="lg:w-1/2 text-sm lg:text-lg p-2">
+                  Hi! I&apos;m{" "}
+                  <span className="text-purple-400 text-lg lg:text-2xl">
+                    Mahe Alif
+                  </span>
+                  , a Computer Science & Engineering student at United
+                  International University. I have experience in the MERN stack,
+                  React, Python, and database management.
                   <br />
-                  Currently, I&apos;m studying Computer Science and Engineering at
-                  United International University. Like many developers, I began
-                  with the MERN stack as my foundation, and I&apos;m eager to keep
-                  building on my skills and expanding my expertise. With
-                  dedication and enthusiasm, I&apos;m excited to make a meaningful
-                  impact in software engineering.
+                  Currently, I&apos;m studying Computer Science and Engineering
+                  at United International University. Like many developers, I
+                  began with the MERN stack as my foundation, and I&apos;m eager
+                  to keep building on my skills and expanding my expertise. With
+                  dedication and enthusiasm, I&apos;m excited to make a
+                  meaningful impact in software engineering.
                   <br />
-                  But recently, I&apos;ve picked a keen interest in AI and Machine
-                  Learning. Though right now my knowledge-base is lacking, I&apos;m
-                  determined to get myself upto speed with effort and a not-lackluster
-                   motivation!!!
+                  But recently, I&apos;ve picked a keen interest in AI and
+                  Machine Learning. Though right now my knowledge-base is
+                  lacking, I&apos;m determined to get myself upto speed with
+                  effort and a not-lackluster motivation!!!
                 </p>
               </div>
             </div>
@@ -99,7 +103,11 @@ function Bento() {
                   </a>
                 </li>
                 <li className="mb-2">
-                  <strong>Project 3:</strong> They are curently under
+                  <strong>Project 3:</strong> There are many projects on my
+                  github, but currently most of them doesn't have live link!
+                </li>
+                <li className="mb-2">
+                  <strong>Project 4:</strong> They are curently under
                   development...
                 </li>
               </ul>
@@ -162,7 +170,7 @@ function Bento() {
 
             {/* New section */}
             <div
-              className={`lg:col-span-2 rounded-lg p-2 shadow-md relative overflow-hidden ${
+              className={`lg:col-span-2 md:col-span-2  rounded-lg p-2 shadow-md relative overflow-hidden ${
                 darkMode
                   ? "bg-gray-800 text-gray-300"
                   : "bg-slate-100    text-gray-700"
